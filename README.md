@@ -212,6 +212,7 @@ Après un petit moment, Maven posera **plusieurs questions à la suite** :
        <version>20231013</version>
      </dependency>
      ```
+Puis faîtes clic-droit dans le fichier pom.xml, puis "Reload Projects". Ca téléchargera les nouvelles dépendances.
 
 3. **Organiser les packages**
 
