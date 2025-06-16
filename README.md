@@ -176,9 +176,22 @@ Une fois Maven installé, exécuter la commande suivante dans le terminal **selo
 
 * **Windows** (CMD ou PowerShell) :
 
-  ```cmd
-  mvn archetype:generate -DgroupId=fr.classcord -DartifactId=classcord-client -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
-  ```
+ ```bash
+mvn archetype:generate
+```
+
+Après un petit moment, Maven posera **plusieurs questions à la suite** :
+
+1. **Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 2251:** : Valeur par défaut (Entrée).
+2. **Choose org.apache.maven.archetypes:maven-archetype-quickstart version:** : Valeur par défaut (Entrée).
+3. **GroupId** : `fr.classcord`
+4. **ArtifactId** : `classcord-client`
+5. **Version** : Valeur par défaut (Entrée)
+6. **Package** : Valeur par défaut (Entrée)
+7. Confirmer avec `Y` puis `Entrée`
+
+➡️ Maven va alors créer **un projet complet avec `pom.xml`**, dossier `src`, etc.
+
 * **Linux / macOS** (Terminal Bash ou Zsh) :
 
   ```bash
